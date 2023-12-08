@@ -17,3 +17,5 @@ The competition was evaluated using the Area Under Receiver Operating Characteri
 
 ## Submission Format
 For each image in the dataset, submission files were required to contain two columns: `img_id` and `cancer_score`. The `cancer_score` represents the probability that an image belongs to the cancer class, i.e., the softmax output for the cancer class. Refer to the `sample_submission.csv` for the submission file format.
+## Results
+After submission and prediction on the test data, the model achieved an AUROC score of 0.84. This indicates a strong performance in distinguishing between normal and cancerous lymph node images.
